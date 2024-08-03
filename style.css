@@ -14,9 +14,9 @@ body{
     color: #03A688;
     font-family: 'Times New Roman', Times, serif;
 }
-.textos{
+.conteudo{
     margin: 20px;
-    max-width: 200px;
+    max-width: 300px;
 }
 .redes-socias{
     display: flex;
@@ -26,4 +26,12 @@ body{
 a{
     margin: 10px;
     color: #F2668B;
+}
+h1{
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
+}
+p{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
