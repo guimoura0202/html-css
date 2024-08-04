@@ -22,6 +22,8 @@ body{
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
+    color: #03A688;
+    text-decoration: none;
 }
 .principal{
     padding: 5% 15%;
