@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <a class="menu-link">Home</a>
+            <a class="menu-link">Sobre Mim</a>
+        </nav>
+    </header>
     <main class="principal">
         <section class="conteudo">
-            <h1>Iniciando meu Portfólio com HTML e CSS</h1>
+            <h1>Iniciando meu Portfólio com <span>HTML e CSS</span></h1>
             <br>
-            <p>Este é o meu projeto de Portfólio, onde irei aplicar meus conhecimentos em HTML e CSS.</p>
+            <p class="texto">Este é o meu projeto de Portfólio, onde irei aplicar meus conhecimentos em HTML e CSS.</p>
             <br>
-            <section class="redes-sociais">
-                <a href="https://github.com/guimoura0202">GitHub</a>
-                <a href="https://www.linkedin.com/in/guilherme-de-avila-de-moura-4984801b4/">LinkedIn</a>
-            </section>
+            <div class="redes-sociais">
+                <h2>Contate-me nas redes:</h2>
+                <a class="rede-social" href="https://www.linkedin.com/in/guilherme-de-avila-de-moura-4984801b4/">
+                    <img class="logo" src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="Logo do LinkedIn">
+                    LinkedIn
+                </a>
+                <a class="rede-social" href="https://github.com/guimoura0202">
+                    <img class="logo" src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-download-in-svg-png-gif-file-formats--70-flat-social-icons-color-pack-logos-432516.png?f=webp" alt="Logo do GitHub">
+                    GitHub
+                </a>
+            </div>
         </section>
         <img src="https://img.freepik.com/fotos-premium/duas-pessoas-trabalhando-juntas-no-escritorio_236854-34272.jpg" alt="Imagem de pessoas trabalhando em um escritório">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido pelo Guilherme de Ávila de Moura.</p>
+    </footer>
 </body>
 </html>
