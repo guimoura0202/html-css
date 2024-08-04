@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --cor-primaria: #03A688;
+    --cor-destaque: #0cfcd0;
+    --cor-fundo: #011F26;
+    --cor-hover: #2d2d2d;
+    --cor-clara: #F6F6F6;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #011F26;
-    color: #03A688;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
 }
 .cabecalho{
     padding: 2% 0% 0% 16%;
@@ -22,7 +30,7 @@ body{
     padding: 20px;
     font-size: 18px;
     font-weight: 600;
-    color: #03A688;
+    color: var(--cor-primaria);
     text-decoration: none;
 }
 .principal{
@@ -32,7 +40,7 @@ body{
     justify-content: space-between;
 }
 span{
-    color: #0cfcd0;
+    color: var(--cor-destaque);
 }
 .conteudo{
     margin: 20px;
@@ -57,7 +65,7 @@ h2{
     font-size: 20px;
     font-family: "Krona One", sans-serif;
     font-style: normal;
-    color: #0cfcd0;
+    color: var(--cor-destaque);
     margin: 10px;
     font-weight: 600;
 }
@@ -65,8 +73,8 @@ h2{
     display: flex;
     justify-content: center;
     gap: 16px;
-    color: #F6F6F6;
-    border: 2px solid #03A688;
+    color: var(--cor-clara);
+    border: 2px solid var(--cor-destaque);
     padding: 14px;
     width: 40%;
     font-weight: 600;
@@ -77,19 +85,19 @@ h2{
     font-family: "Montserrat", sans-serif;
 }
 .rede-social:hover{
-    background-color: #2d2d2d;
-    color: #F6F6F6;
+    background-color: var(--cor-hover);
+    color: var(--cor-clara);
 }
 .logo{
     width: 25px;
     height: 25px;
 }
 .rodape{
-    background-color: #0cfcd0;
+    background-color: var(--cor-destaque);
     padding: 28px;
     text-align: center;
     align-items: center;
-    color: #011F26;
+    color: var(--cor-fundo);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 18px;
