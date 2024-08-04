@@ -38,13 +38,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 span{
     color: var(--cor-destaque);
 }
 .conteudo{
     margin: 1.25rem;
-    max-width: 28.13rem;
+    box-sizing: border-box;
+    width: 50%;
 }
 h1{
     font-size: 2.25rem;
@@ -76,7 +78,7 @@ h2{
     color: var(--cor-clara);
     border: 2px solid var(--cor-destaque);
     padding: 0.88rem;
-    width: 40%;
+    width: 70%;
     font-weight: 600;
     text-align: center;
     border-radius: 1rem;
@@ -92,6 +94,10 @@ h2{
     width: 1.56rem;
     height: 1.56rem;
 }
+.img-principal{
+    width: 50%;
+    height: auto;
+}
 .rodape{
     background-color: var(--cor-destaque);
     padding: 1.75rem;
@@ -100,5 +106,41 @@ h2{
     color: var(--cor-fundo);
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    width: 100%;
     font-size: 1.13rem;
+}
+
+@media (max-width: 800px){
+    .principal{
+        flex-direction: column-reverse;
+        gap: 1.25rem;
+    }
+    .conteudo{
+        width: auto;
+    }
+    .img-principal{
+        width: 100%;
+    }
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho-menu{
+        justify-content: center;
+    }
+    .menu-link{
+        font-size: 1rem;
+    }
+    .texto{
+        font-size: 1.25rem;
+    }
+    .rede-social{
+        font-size: 1rem;
+    }
+    .logo{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .rodape{
+        font-size: 1rem;
+    }
 }
