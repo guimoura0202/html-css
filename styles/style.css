@@ -97,6 +97,7 @@ h2{
 .img-principal{
     width: 50%;
     height: auto;
+    border-radius: 50%;
 }
 .rodape{
     background-color: var(--cor-destaque);
